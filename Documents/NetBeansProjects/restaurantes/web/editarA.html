@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+        UPDATE `sabana` SET `ClaveMateria` = 'AED1286' WHERE `sabana`.`ClaveHorario` = '4013'
+
+-->
+
+<html>
+    <head>
+          <link href="style.css" rel="stylesheet" type="text/css">
+            <title>Documento sin título</title>
+
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <form action="editarA.jsp" method="get">
+     
+    <table  width="40%">   
+        <tr>
+        <h3>INSERTA LA CLAVE DEL ADMINISTRADOR QUE DECEAS EDITAR</h3>
+        <td><label for="Clave">Clave del Restaurante </label></td>
+      <td><input type="text" name="Clave" id="Clave"></td>
+    </tr>
+    <tr>
+      <td> <label for="Campo">Capo Para Editar </label></td>
+      <td><select name="Campo" id="Campo">
+        
+        <option>usuario</option>
+        <option>contrasena</option>
+        
+      </select></td>
+    </tr>
+     <tr>
+        <h3>INSERTA EL DATO CORRECTO</h3>
+        <td><label for="Ncampo">Dato</label></td>
+      <td><input type="text" name="Ncampo" id="Ncampo"></td>
+    </tr>
+    <tr>
+      <td colspan="2" align="center">
+          <input type="submit" name="button" id="button" value="Entrar">
+      
+      </td>
+      
+    </tr>
+    </table> 
+        </form>
+    </body>
+</html>
